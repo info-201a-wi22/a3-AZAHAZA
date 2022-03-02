@@ -1,0 +1,29 @@
+---
+title: "index.Rmd"
+output: html_document
+---
+
+```{r setup, include=FALSE,warning=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(kableExtra)
+```
+
+# Project title : Economic Inequality and its Dynamics in the United States
+
+### Author:
+
+**Sonia Yeh - tzuy3@uw.edu**
+
+<br/>
+
+#### Date: Winter 2022
+
+
+## Introduction
+The war on drugs is a war declared by president Nixon in the 1970s. The original intention of the war was to stop drug abuse and solve social issues caused by drugs, however, the drug war became a political means to gain votes from the election. Politicians at that time used the excuse of drug war to deepen racial discrimination and criminalize innocent black people or other ethnic minorities. In this data set, we will be exploring relationship between the drug war, prison populations, and racial discrimination. 
+
+## Abstract 
+The data set explores different jail statistics in the United States. The data set includes data such as the population, county level, annual survey, pretrial population, geography and so on. 
+
+
+##
