@@ -12,7 +12,6 @@ library("ggplot2")
 library("tidyr")
 library(plotly)
 library(usdata)
-
 ```
 
 # Project title : Economic Inequality and its Dynamics in the United States

@@ -63,7 +63,7 @@ race_population2 <- race_population %>% slice(-c(1:15, 48:49))
 
 View(race_population2)
 #create the stacked bar chart 
-Population_Count <- year
+
 year <- c(race_population2$year)
 aapi <- c(race_population2$sum_aapi_pop)
 black <- c(race_population2$sum_black_pop)
