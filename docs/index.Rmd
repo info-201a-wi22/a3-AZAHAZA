@@ -1,5 +1,5 @@
 ---
-title: "index.Rmd"
+title: "Assignment 3: Data Visualization"
 output: html_document
 ---
 
@@ -14,7 +14,6 @@ library(plotly)
 library(usdata)
 ```
 
-# Project title : Economic Inequality and its Dynamics in the United States
 
 ### Author:
 
