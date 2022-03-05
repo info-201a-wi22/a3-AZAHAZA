@@ -20,10 +20,35 @@ library(kableExtra)
 
 
 ## Introduction
-The war on drugs is a war declared by president Nixon in the 1970s. The original intention of the war was to stop drug abuse and solve social issues caused by drugs, however, the drug war became a political means to gain votes from the election. Politicians at that time used the excuse of drug war to deepen racial discrimination and criminalize innocent black people or other ethnic minorities. In this data set, we will be exploring relationship between the drug war, prison populations, and racial discrimination. 
+The war on drugs is a war declared by president Nixon in the 1970s. The original intention of the war was to stop drug abuse and solve social issues caused by drugs, however, the drug war became a political means to gain votes from the election. Politicians at that time used the excuse of drug war to deepen racial discrimination and criminalize innocent black people or other ethnic minorities. In this data set, I will be exploring relationship between the drug war, prison populations, and racial discrimination. The data set is from [Vera, the institution of justice](https://github.com/vera-institute), which collects jail and prison data on a county level. The prison variable is draw on  National Corrections Reporting Program (NCRP), and from state departments when the NCRP variable is not reliable. 
 
 ## Abstract 
-The data set explores different jail statistics in the United States. The data set includes data such as the population, county level, annual survey, pretrial population, geography and so on. 
+In this report, we will be exploring variables regarding race, region, jail, and prison population. The current(2016) jail and prison population is 1,632,629. After analyzing the ratio of the prison jail population, I found out that white people take up 0.4% of the jail population yet they make up 61% of the total population of the United States. On the other hand, black people take up 18% of the population, yet only makes up 13% of the current population. And according to the data set, the jail population is increasing sharply every year, with a annual average growth of 44,170 people, and a average growth of 7,174 for white people and 5,091 for black. This leads to the finding that 2009 reaches the maximun jail population since 1970. 
+
+## Trends over time chart
+
+The variable I wanted to explore in the trend over time chart is the overall jail prison population from 1970 to 2016. I think this charts clearly shows how the population in the prison increased due to the war of drugs and how it increased due to policies and social issues. 
+
+<br>
+```{r, echo = FALSE}
+line_plot
+```
+
+## Variable Comparison Chart
+
+This chart shows the population built up based on different racial groups. It is designed this way so we are able to compare the population among different racial groups based on population and we could also tell the total population. We can see that the US tend to have similar amount of black and white population in prison, Latinx, followed by native Americans and Asian American / Pacific Islander. 
+
+<br>
+```{r, echo = FALSE}
+fig
+```
+
+## Map
+This map shows the different jail built up in different states. We can tell from the graph that Texas has the greatest jail population among the country, maybe since they are one of the biggest states. This chart is designed this way because we can tell the build up based on location, and while clicking on the location, we are able to tell the racial built up as well. The map helps analyze data based on locaton.
 
 
-##
+<br>
+
+```{r, echo = FALSE}
+fig2
+```
