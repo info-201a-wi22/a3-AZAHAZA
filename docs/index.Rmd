@@ -6,6 +6,13 @@ output: html_document
 ```{r setup, include=FALSE,warning=FALSE, echo=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(kableExtra)
+source("../source/analysis.R")
+library("dplyr")
+library("ggplot2")
+library("tidyr")
+library(plotly)
+library(usdata)
+
 ```
 
 # Project title : Economic Inequality and its Dynamics in the United States
